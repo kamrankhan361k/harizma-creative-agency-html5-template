@@ -1,0 +1,240 @@
+/**
+* Theme Name: MyDocs
+* Description: Documentation theme. Based on Twenty Seventeen.
+* Author: Artem Semkin
+* Template: twentyseventeen
+* Version: 1.0.0
+*/
+
+/* .docspress-single-breadcrumbs {
+	display: none;
+} */
+.docspress-single-breadcrumbs {
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: -0px;
+	margin-right: -5px;
+	margin-bottom: 15px;
+	margin-left: -5px;
+	font-size: .75em;
+	/* color: #888; */
+	list-style: none;
+}
+
+.docspress-single-breadcrumbs a {
+	color: #999
+}
+
+.docspress-single-breadcrumbs li:last-of-type {
+	color: #444
+}
+
+.wrap,
+.docspress_theme_twentyseventeen {
+	max-width: 1400px;
+}
+
+.site-branding {
+	padding: 3em 0;
+}
+
+.site-footer .wrap {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.docspress_theme_twentyseventeen .entry-title {
+	margin-bottom: 1.25em
+}
+
+.wp-block-code.prettyprinted {
+	background: #f8f8f8;
+	border: 1px solid rgba(24, 24, 24, 0.1);
+	padding: 15px 20px;
+}
+
+.wp-block-quote {
+	padding: 30px !important;
+	background: #f8f8f8;
+}
+
+code {
+	font-size: 12px;
+}
+
+@media screen and (min-width: 30em) {
+	.site-branding {
+		padding: 12em 0;
+	}
+}
+
+body.has-header-image .site-title,
+body.has-header-image .site-description,
+body.has-header-image .site-title a {
+	color: #333;
+}
+
+.custom-header-media:before {
+	display: none;
+}
+
+/* .docspress-single .docspress-single-sidebar .docspress-nav-list li ul.children {
+	display: block;
+} */
+
+.site-description {
+	margin-top: 0.5em;
+}
+
+.docspress-single .docspress-single-content {
+	padding: 3em;
+	padding-top: 0;
+}
+
+@media screen and (max-width: 800px) {
+	.docspress-single .docspress-single-content {
+		padding: 0;
+	}
+
+	.docspress-single .docspress-single-sidebar {
+		border-right: none;
+	}
+
+	.site-footer .wrap {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+.entry-content a img,
+.comment-content a img,
+.widget a img {
+	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+}
+
+.wp-block-image {
+	margin-top: 1.5em;
+	margin-bottom: 3em !important;
+}
+
+.wp-block-image figcaption {
+	margin-top: 1.5em;
+}
+
+.wp-block-image a {
+	transition: all 0.3s ease-in-out;
+}
+
+.wp-block-image a,
+.wp-block-image a:hover {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.wp-block-image a:hover {
+	opacity: .8;
+}
+
+.wp-block-quote p {
+	margin-bottom: 0;
+}
+
+.entry-content a:focus,
+.entry-content a:hover,
+.entry-summary a:focus,
+.entry-summary a:hover,
+.comment-content a:focus,
+.comment-content a:hover,
+.widget a:focus,
+.widget a:hover,
+.site-footer .widget-area a:focus,
+.site-footer .widget-area a:hover,
+.posts-navigation a:focus,
+.posts-navigation a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:hover,
+.comment-metadata a.comment-edit-link:focus,
+.comment-metadata a.comment-edit-link:hover,
+.comment-reply-link:focus,
+.comment-reply-link:hover,
+.widget_authors a:focus strong,
+.widget_authors a:hover strong,
+.entry-title a:focus,
+.entry-title a:hover,
+.entry-meta a:focus,
+.entry-meta a:hover,
+.page-links a:focus .page-number,
+.page-links a:hover .page-number,
+.entry-footer a:focus,
+.entry-footer a:hover,
+.entry-footer .cat-links a:focus,
+.entry-footer .cat-links a:hover,
+.entry-footer .tags-links a:focus,
+.entry-footer .tags-links a:hover,
+.post-navigation a:focus,
+.post-navigation a:hover,
+.pagination a:not(.prev):not(.next):focus,
+.pagination a:not(.prev):not(.next):hover,
+.comments-pagination a:not(.prev):not(.next):focus,
+.comments-pagination a:not(.prev):not(.next):hover,
+.logged-in-as a:focus,
+.logged-in-as a:hover,
+a:focus .nav-title,
+a:hover .nav-title,
+.edit-link a:focus,
+.edit-link a:hover,
+.site-info a:focus,
+.site-info a:hover,
+.widget .widget-title a:focus,
+.widget .widget-title a:hover,
+.widget ul li a:focus,
+.widget ul li a:hover {
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 1);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 1);
+}
+
+.entry-title a,
+.entry-meta a,
+.page-links a,
+.page-links a .page-number,
+.entry-footer a,
+.entry-footer .cat-links a,
+.entry-footer .tags-links a,
+.edit-link a,
+.post-navigation a,
+.logged-in-as a,
+.comment-navigation a,
+.comment-metadata a,
+.comment-metadata a.comment-edit-link,
+.comment-reply-link,
+a .nav-title,
+.pagination a,
+.comments-pagination a,
+.site-info a,
+.widget .widget-title a,
+.widget ul li a,
+.site-footer .widget-area ul li a,
+.site-footer .widget-area ul li a {
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.entry-content ul li,
+.entry-content ol li {
+	/* display: block; */
+	margin: 0.5em 0;
+}
+
+.docspress-single .docspress-single-sidebar .docspress-nav-list {
+	padding: 0;
+}
+
+@media screen and (min-width: 48em) {
+	.site-footer {
+		margin-top: 5.5em;
+	}
+}
